@@ -5,7 +5,9 @@ body{
 #container{
     width:1000px;
     height:550px;
-    background-color: red;
+    background-image:url("math\ image.jpeg") ;
+    background-repeat:no-repeat;
+    background-size:cover;
     margin:20px auto;
 }
 #calculator{
@@ -40,4 +42,49 @@ body{
 }
 .number,.operator{
     cursor: pointer;
+}
+#results{
+     height:120px
+}
+#history{
+    text-align:center; 
+height: 60px;
+margin:0 20px;
+font-size:20px;
+padding-top:20px;
+color:black;
+}
+#output{
+    text-align: right;
+    height:60px;
+    margin:10px 20px;
+    font-size:30px;
+}
+button:nth-child(4){
+    font-size:20px;
+    background-color: aquamarine;
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: rgba(222, 25, 228, 0.829);
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgba(32, 15, 218, 0.678);
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgba(16, 228, 48, 0.929);
+}
+button:nth-child(1) {
+    font-size: 20px;
+    background-color: rgba(212, 234, 11, 0.865);
+}
+button:nth-child(2) {
+    font-size: 20px;
+    background-color: rgba(126, 8, 89, 0.797);
+}
+button:nth-child(3) {
+    font-size: 20px;
+    background-color: rgba(7, 135, 215, 0.838);
 }
